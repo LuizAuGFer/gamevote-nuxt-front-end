@@ -7,8 +7,9 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-body-emphasisy">NEWS</a></li>
-          <li><a href="#" class="nav-link px-2 link-body-emphasis">NOMINESS</a></li>
+          <NuxtLink to="/">
+            <li><a href="#" class="nav-link px-2 link-body-emphasis">HOME</a></li>
+          </NuxtLink>
           <li><a href="#" class="nav-link px-2 link-body-emphasis">ABOUT</a></li>
           <li><a href="#" class="nav-link px-2 link-body-emphasis">REWIND</a></li>
           <li><a href="#" class="nav-link px-2 link-body-emphasis">FAQ</a></li>
@@ -26,5 +27,9 @@
 <style scoped>
   .nav {
     background-color: #FF9F59;
+  }
+
+  a {
+    text-decoration: none;
   }
 </style>

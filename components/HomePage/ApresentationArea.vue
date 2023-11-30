@@ -7,7 +7,9 @@
                 <h2 class="title">DECEMBER 7</h2>
                 <h2>PEACOCK THEATER, LOS ANGELES</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start gap-2">
-                    <button type="button" class="btn btn-primary btn-lg m-2">New account</button>
+                    <NuxtLink to="new_account">
+                        <button type="button" class="btn btn-primary btn-lg m-2">New account</button>
+                    </NuxtLink>
                     <button type="button" class="btn btn-outline-success btn-lg m-2">Vote now</button>
                 </div>
                 </div>

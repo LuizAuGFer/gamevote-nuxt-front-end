@@ -9,6 +9,6 @@ export default defineNuxtConfig({
 
   plugins: [
     { src: '~/plugins/bootstrap.js', mode: 'client' },
-  ]
+  ],
   
 })
