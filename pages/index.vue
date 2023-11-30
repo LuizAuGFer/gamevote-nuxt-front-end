@@ -1,15 +1,5 @@
 <template>
-    <div>
-        <HomePageNavBar />
-        <HomePageEventDuration />
-        <HomePageApresentationArea />
+    <div class="container mx-auto text-center mt-5">
+        <AlertsSuccess />
     </div>
 </template>
-
-<script setup>
-
-</script>
-
-<style lang="scss" scoped>
-    
-</style>

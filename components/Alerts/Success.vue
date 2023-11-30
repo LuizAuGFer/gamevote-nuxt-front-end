@@ -1,14 +1,7 @@
 <template>
-    <div class="alert alert-success" role="alert">
-        {{ message }}
+    <div>
+        <div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
+            <span class="font-medium">Olá!</span> Tudo pronto para começar um novo projeto?
+        </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "Success",
-    props: {
-        message: String
-    }
-}
-</script>
