@@ -1,3 +1,6 @@
 <template>
-    <NavsNavWelcome />
+    <div>
+        <NavsNavWelcome />
+        <AreasWelcomeApresentation />
+    </div>
 </template>
