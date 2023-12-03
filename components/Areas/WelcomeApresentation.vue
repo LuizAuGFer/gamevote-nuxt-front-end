@@ -7,11 +7,9 @@
                     <h1 class="font-semibold text-8xl leading-normal mb-6 text-white">DECEMBER 7</h1>
                     <h2 class="md:text-4xl sm:text-2xl text-white">PEACOCK THEATER, LOS ANGELES</h2>
                     <div class="flex py-4">
-                        <a href="/new_account">
-                            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                        <button type="button"  @click="navigateToNewAccountPage" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-2xl px-5 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                             Creare a new account
-                            </button>
-                        </a>
+                        </button>
                         <button type="button" class="text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-2xl px-5 py-4 text-center me-2 mb-2 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900">
                             Vote now
                         </button>
@@ -32,6 +30,11 @@ export default {
             card_text: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
             card_title: 'Noteworthy technology acquisitions 2021',
             counter: 7
+        }
+    },
+    methods: {
+        navigateToNewAccountPage() {
+            this.$router.push('/new_account');
         }
     }
 }

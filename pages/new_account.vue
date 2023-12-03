@@ -1,3 +1,4 @@
 <template>
      <NavsNavWelcome />
+     <FormsNewAccount />
 </template>
