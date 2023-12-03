@@ -1,3 +1,3 @@
 <template>
-    
+     <NavsNavWelcome />
 </template>
