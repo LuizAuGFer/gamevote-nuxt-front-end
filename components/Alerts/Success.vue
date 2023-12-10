@@ -1,7 +1,16 @@
 <template>
     <div>
         <div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
-            <span class="font-medium">Olá!</span> Tudo pronto para começar um novo projeto?
+           {{ message }}
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    name: "SuccessMessage",
+    props: {
+        message: String,
+    }
+}
+</script>
