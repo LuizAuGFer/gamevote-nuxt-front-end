@@ -34,7 +34,7 @@ export default {
     },
     methods: {
         navigateToNewAccountPage() {
-            // this.$router.push('/new_account');
+            this.$router.push('/new_account');
         }
     }
 }
